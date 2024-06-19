@@ -1,0 +1,24 @@
+<div class="min-h-screen flex flex-col">
+  <header class="bg-indigo-600 text-white py-4">
+    <div class="container mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">User Management</h1>
+      <div>
+        <span>
+          <!-- Link to the RegisterComponent -->
+          <a rel="noopener noreferrer" href='/register'>Register</a>
+          <br>
+          <!-- Link to the DetailsComponent -->
+          <a rel="noopener noreferrer" href='/display'>Display Details</a>
+        </span>
+      </div>
+    </div>
+  </header>
+  <main class="flex-grow container mx-auto py-8">
+    <router-outlet></router-outlet>
+  </main>
+  <footer class="bg-gray-800 text-white py-4">
+    <div class="container mx-auto text-center">
+      © 2024 User Management App
+    </div>
+  </footer>
+</div>
